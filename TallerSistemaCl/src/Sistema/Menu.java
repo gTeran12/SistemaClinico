@@ -5,6 +5,8 @@
  */
 package Sistema;
 
+import Accion.EnviarCorreo;
+
 /**
  *
  * @author Usuario
@@ -16,6 +18,8 @@ public class Menu {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        EnviarCorreo mail = new EnviarCorreo("ridacevallos@espol.edu.ec", "Probar correo", "Estoy probando el envio del correo", 0);
+        mail.ejecutarEnviarCorreo();
     }
     
 }
