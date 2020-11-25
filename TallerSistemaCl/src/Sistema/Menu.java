@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tallersistemacl;
+package Sistema;
 
 /**
  *
- * @author guill
+ * @author Usuario
  */
-public class TallerSistemaCl {
+public class Menu {
 
     /**
      * @param args the command line arguments
